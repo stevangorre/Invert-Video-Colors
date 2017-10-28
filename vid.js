@@ -22,7 +22,7 @@ main.appendChild(vid);
 var video=document.getElementById("vid");
 //source
 var source=document.createElement('source');
-source.src='mov.mp4';
+source.src='video.mp4';
 source.type='video/mp4';
 video.appendChild(source);
 //height input
